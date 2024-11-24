@@ -1,0 +1,14 @@
+Algorithme temp
+  Variables T, Heures, Minutes, Secondes : entier
+Début
+  Ecrire("Donnez la valeur du temps en secondes :")
+  Lire(T)
+
+  Heures ← T / 3600
+  T ← T % 3600
+
+  Minutes ← T / 60
+  Secondes ← T % 60
+
+  Ecrire(Heures, " heures ", Minutes, " minutes ", Secondes, " secondes")
+Fin
