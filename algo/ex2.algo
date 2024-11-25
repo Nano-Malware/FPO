@@ -1,0 +1,11 @@
+Algorithme SommeDeuxNombres
+Variables : 
+  nombre1, nombre2, somme : Entiers
+Début
+  Écrire "Entrez le premier nombre : "
+  Lire nombre1
+  Écrire "Entrez le deuxième nombre : "
+  Lire nombre2
+  somme ← nombre1 + nombre2
+  Écrire "La somme est : ", somme
+Fin
