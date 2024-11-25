@@ -1,0 +1,16 @@
+Algorithme CompterEntiers
+Variables :
+  tableau : Tableau[1..100] d'Entiers
+  compteur, i, nombre : Entiers
+Début
+  compteur ← 0
+  Pour i de 1 à 100 faire
+    Écrire "Entrez un nombre : "
+    Lire nombre
+    tableau[i] ← nombre
+    Si nombre ≥ 10 ET nombre ≤ 20 Alors
+      compteur ← compteur + 1
+    FinSi
+  FinPour
+  Écrire "Nombre d'entiers entre 10 et 20 : ", compteur
+Fin
